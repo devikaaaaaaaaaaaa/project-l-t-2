@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.habit-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.habit-form input {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.habit-form button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.habit-form button#reset-tracker {
+  background: #e74c3c;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+}
+
+table th {
+  background: #f2f2f2;
+}
+
+.progress-bar {
+  height: 15px;
+  background: #4CAF50;
+  border-radius: 10px;
+}
+
+.progress-container {
+  width: 100px;
+  height: 15px;
+  background: #ddd;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.checkbox {
+  cursor: pointer;
+  transform: scale(1.2);
+}

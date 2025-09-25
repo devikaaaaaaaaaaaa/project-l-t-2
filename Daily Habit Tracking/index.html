@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Habit Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Daily Habit Tracker</h1>
+
+    <!-- Add Habit Form -->
+    <div class="habit-form">
+      <input type="text" id="habit-input" placeholder="Enter a habit">
+      <button id="add-habit">Add Habit</button>
+      <button id="reset-tracker">Reset All</button>
+    </div>
+
+    <!-- Habit Tracker Table -->
+    <table id="habit-table">
+      <thead>
+        <tr>
+          <th>Habit</th>
+          <th>Progress</th>
+          <th>Streak</th>
+          <th colspan="7">This Week</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Habits will appear here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
